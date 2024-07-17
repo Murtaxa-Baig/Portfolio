@@ -1,9 +1,7 @@
 import { Resend } from "resend";
 import {redirect} from  'next/navigation'
 
-
-// EMAIL SENDGING FUCTIONALITY 
-// ADD RESEND_API_KEY IN YOUR .ENV FILE 
+ 
 const resend = new Resend(process.env.RESEND_API_KEY);
 export const SendEmail = async (formdata: FormData) => {
   const message = formdata.get("message");
