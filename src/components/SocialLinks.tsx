@@ -6,10 +6,9 @@ import FramerWrapper from "./FramerWrapper";
 
 const SocialLinks = () => {
   const links = [
-    { name: "Facebook", link: "https://www.facebook.com/shahina.khatun.1044", icon: <Facebook /> },
-    { name: "Twitter", link: "https://twitter.com/Taquiimam14", icon: <Twitter /> },
-    { name: "Linkedin", link: "https://www.linkedin.com/in/taqui-imam", icon: <Linkedin /> },
-    { name: "External", link: "https://tinyurl.com/MdTaquiImam", icon: <ExternalLink /> },
+    { name: "Facebook", link: "https://www.facebook.com/murtaxa.baig.1/", icon: <Facebook /> },
+    { name: "Twitter", link: "https://x.com/MurtaxaBaig", icon: <Twitter /> },
+    { name: "Linkedin", link: "https://www.linkedin.com/in/murtaxa-baig/", icon: <Linkedin /> },
   ];
   return (
     <>

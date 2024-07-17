@@ -20,20 +20,19 @@ const page = () => {
         About me
       </Badge>
       <div className="flex flex-col gap-3">
-       
-          <Heading>
-            Software Engineer And Web <br /> Developer, Based In India.
-          </Heading>
-   
+
+        <Heading>
+        Full Stack Web Developer <br /> And Web Scrapper.
+        </Heading>
+
         <FramerWrapper y={0} x={100} >
           <p className=" font-poppins text-xl w-full text-primary max-sm:text-lg">
-            I am a Full Stack Web Developer from Ramgarh cantt, Jharkhand,
-            India. I love crafting cool web projects and also open-source
-            contribuitions. My biggest achievement lies in my mastery of
-            JavaScript and CSS, ensuring pixel-perfect designs that captivate
-            users. With a keen eye for detail and a commitment to delivery
-            speed, I excel at creating seamless and responsive interfaces that
-            leave a lasting impression.
+            I am a software developer skilled in React, Next.js, React Native, 
+            Python, FastAPI, Django, and web scraping with Selenium. I specialize in building
+            dynamic, scalable websites, delivering seamless user
+            experiences, and automating data collection processes. Always eager to
+            embrace new challenges and technologies, I strive to create impactful solutions
+            and drive innovation.           
           </p>
         </FramerWrapper>
       </div>

@@ -4,15 +4,14 @@ import { Badge } from "@/components/ui/badge";
 import { Lightbulb } from "lucide-react";
 import html from '../../../public/html.png'
 import css from '../../../public/css.png'
-import scss from '../../../public/scss.png'
+import python from '../../../public/python.webp'
 import js from '../../../public/js.png'
 import ts from '../../../public/ts.png'
 import react from '../../../public/react.png'
 import nextjs from '../../../public/nextjs.jpeg'
-import cplus from '../../../public/c++.jpeg'
-import tailwind from '../../../public/tailwindcss.png'
+import fastapi from '../../../public/fastapi.png'
 import github from '../../../public/github.png'
-import vscode from '../../../public/vscode.png'
+import django from '../../../public/django.jpg'
 import FramerWrapper from "@/components/FramerWrapper";
 const skillPage = () => {
 
@@ -21,15 +20,14 @@ const skillPage = () => {
         {alt:"css", img:css},
         {alt:"js", img:js},
         {alt:"ts", img:ts},
-        {alt:"cplus", img:cplus},
+        {alt:"Python", img:python},
     ]
     const framework = [
         {alt:"react", img:react},
         {alt:"nextjs", img:nextjs},
-        {alt:"scss", img:scss},
-        {alt:"tailwind", img:tailwind},
+        {alt:"django", img:django},
+        {alt:"fastapi", img:fastapi},
         {alt:"github", img:github},
-        {alt:"vscode", img:vscode},
     ]
        
 
