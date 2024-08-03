@@ -7,8 +7,6 @@ const page = () => {
   const items = [
     { hobby: "coding" },
     { hobby: "playing games" },
-    { hobby: "Watching Anima" },
-    { hobby: "Tech Blog writing" },
     { hobby: "creating Cool Projects" },
   ];
 
