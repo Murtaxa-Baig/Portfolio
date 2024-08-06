@@ -22,7 +22,7 @@ export default function Home() {
         <div className="h-fit w-full p-4 flex gap-3">
           <SocialLinks />
         </div>
-       {/* <DownLoadResumeBtn/> */}
+       <DownLoadResumeBtn/>
       </FramerWrapper>
       {/* RIGHT SIDE image  */}
       <FramerWrapper className="h-full w-[47%] relative block max-lg:hidden" y={0} x={100}>
