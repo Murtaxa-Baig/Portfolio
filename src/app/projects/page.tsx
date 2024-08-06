@@ -8,68 +8,47 @@ const projectsPage = () => {
   // PROJECTS DATA
   const Projects = [
     {
-      title: "FriendZ - A social media Platform",
+      title: "Koach Assist",
       description:
-        "FriendZ is a social media app made with modern tech stacks such as redis, Authjs etc. A user can Create, delete, like, comment Post. ",
-      tags: ["Redis", "Authjs", "Typescript", "Nextjs"],
-      link: "https://github.com/taqui-786/project-friendz",
+        "Koach Assist was founded to streamline logistics and operations in high school athletics. We serve coaches and administrators, helping them find their next job.",
+      tags: ["Nextjs", "Tailwind", "Typescript", "Strapi"],
+      link: "https://www.koachassist.com",
     },
     {
-      title: "itZmyLink- One Page many Links",
+      title: "Torque Web App",
       description:
-        "itZmyLink is a simple platform where user can create a personalized page to showcase all your social media profiles in one place. ",
-      tags: ["Nextjs", "Typescript", "Shadcn Ui"],
-      link: "https://github.com/taqui-786/itZmyLink",
+        "The Torque Training App is a fitness application designed to provide personalized workout plans and track user progress, enhancing their training experience.",
+      tags: ["Nextjs", "JavaScript", "Tailwind","Strapi"],
+      link: "https://start.torquetrainingapp.com",
     },
     {
-      title: "GitEstimate- Github estimate worth generator",
+      title: "Profile Hub",
       description:
-        "GitEstimate is a simple fun tool where user can generate their github estimate worth card just by entering their github username. ",
-      tags: ["Nextjs", "Typescript", "Shadcn Ui"],
-      link: "https://github.com/taqui-786/GitEstimate",
+        "Profile Hub is an intuitive web app for creating and sharing personalized profile links, making it easy to manage and showcase your online presence.",
+      tags: ["Nextjs", "Typescript","Tailwind" ,"FireBase"],
+      link: "https://profile-hub-silk.vercel.app/",
     },
     {
-      title: "Mixcn-ui- Reusable components for Nextjs",
+      title: "NFT Marketplace Design",
       description:
-        "This is Nextjs app with a Collection of Nextjs Components - (Currently under Devlelopment) ",
-      tags: ["Nextjs", "Shadcnui", "Npx","Library"],
-      link: "https://mixcn-ui.vercel.app",
+        "NFT is a dynamic web application designed to streamline task management and assignment submissions, providing an efficient platform for students and educators.",
+      tags: ["Nextjs", "Tailwind", ],
+      link: "https://assignment-9-psi.vercel.app/",
     },
     {
-      title: "Rupeespot- All deals Product in one place",
+      title: "Task Tracker Pro",
       description:
-        "This is a free tool to check price history charts for millions of products for popular Indian stores such as Amazon and Flipkart. ",
-      tags: ["Nextjs", "Freelancing", "MySQL"],
-      link: "https://rupeespot.com/",
+        "It is a web application focused on simplifying project tracking and task assignments, enhancing productivity for teams and individuals.",
+      tags: ["Nextjs", "Tailwind", "Contentfull CMS"],
+      link: "https://assignment-11-sepia.vercel.app",
     },
     
     {
-      title: "KryptoKapital- Investing in Cryptocurreny",
+      title: "Github User Detail",
       description:
-        "This is a platform for learning about cryptocurrency with many tools and festures. It is very big project. ",
-      tags: ["Nextjs", "Freelancing", "Supabase"],
-      link: "https://devkryptokapital.netlify.app/",
-    },
-    {
-      title: "ChatApp- Simple instagram clone",
-      description:
-        "ChatApp is similar to instagram, you can create, edit, delete, like,comment, post and  Follow, unfollow users",
-      tags: ["Reactjs", "Javascript"],
-      link: "https://github.com/taqui-786/chatapp-api",
-    },
-    {
-      title: "Devletter - A Newsletter for devs",
-      description:
-        "Devletter ia a newsletter subscribing single page app made with Nextjs and Tailwindcss.",
-      tags: ["Nextjs", "Tailwindcss"],
-      link: "https://github.com/taqui-786/Devletter",
-    },
-    {
-      title: "CrouMaker - A Crousal Maker App",
-      description:
-        "Crousal Maker is a tool with in-built crousals templates edit and download it in any format.",
-      tags: ["Nextjs", "jsPDF", "html2canvas", "Shadcn Ui"],
-      link: "https://github.com/taqui-786/crousal-maker",
+        "In this project, the user provides a GitHub username, and the application will fetch and display that user's details.",
+      tags: ["Nextjs", "Tailwind", "Axios"],
+      link: "https://assignment-12-seven.vercel.app",
     },
   ];
 
