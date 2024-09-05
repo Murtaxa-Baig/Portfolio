@@ -18,21 +18,21 @@ const projectsPage = () => {
       title: "Torque Web App",
       description:
         "The Torque Training App is a fitness application designed to provide personalized workout plans and track user progress, enhancing their training experience.",
-      tags: ["Nextjs", "JavaScript", "Tailwind","Strapi"],
+      tags: ["Nextjs", "JavaScript", "Tailwind", "Strapi"],
       link: "https://start.torquetrainingapp.com",
     },
     {
       title: "Profile Hub",
       description:
         "Profile Hub is an intuitive web app for creating and sharing personalized profile links, making it easy to manage and showcase your online presence.",
-      tags: ["Nextjs", "Typescript","Tailwind" ,"FireBase"],
+      tags: ["Nextjs", "Typescript", "Tailwind", "FireBase"],
       link: "https://profile-hub-silk.vercel.app/",
     },
     {
       title: "NFT Marketplace Design",
       description:
         "NFT is a dynamic web application designed to streamline task management and assignment submissions, providing an efficient platform for students and educators.",
-      tags: ["Nextjs", "Tailwind", ],
+      tags: ["Nextjs", "Tailwind",],
       link: "https://assignment-9-psi.vercel.app/",
     },
     {
@@ -42,7 +42,7 @@ const projectsPage = () => {
       tags: ["Nextjs", "Tailwind", "Contentfull CMS"],
       link: "https://assignment-11-sepia.vercel.app",
     },
-    
+
     {
       title: "Github User Detail",
       description:
@@ -50,6 +50,13 @@ const projectsPage = () => {
       tags: ["Nextjs", "Tailwind", "Axios"],
       link: "https://assignment-12-seven.vercel.app",
     },
+    {
+      title: "Car Rental Web Application",
+      description: "This project is a responsive car rental web application that allows users to browse and book vehicles. The application features a clean and intuitive interface with sections for selecting pickup locations, dates, and vehicle types. It also includes a toggle bar for switching between different views and responsive layouts for various screen sizes.",
+      tags: ["Next.js", "Tailwind CSS", "React"],
+      link: "https://rental-web-murtaxa.vercel.app"
+    }
+
   ];
 
   return (
