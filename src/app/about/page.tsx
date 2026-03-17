@@ -20,13 +20,13 @@ const page = () => {
       <div className="flex flex-col gap-3">
 
         <Heading>
-        Full Stack Web Developer <br /> And Web Scrapper.
+        Full Stack Web Developer <br /> And React Native Developer.
         </Heading>
 
         <FramerWrapper y={0} x={100} >
           <p className=" font-poppins text-xl w-full text-primary max-sm:text-lg">
-            I am a software developer skilled in React, Next.js, React Native, 
-            Python, FastAPI, Django, and web scraping with Selenium. I specialize in building
+            I am a software developer skilled in React, Next.js, React Native,
+            FastAPI, Django, and web scraping with Selenium. I specialize in building
             dynamic, scalable websites, delivering seamless user
             experiences, and automating data collection processes. Always eager to
             embrace new challenges and technologies, I strive to create impactful solutions

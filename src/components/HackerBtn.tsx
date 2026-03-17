@@ -1,9 +1,15 @@
 "use client"
 import { useState, useEffect } from 'react';
-import { Button } from './ui/button';
+import { Button, buttonVariants } from './ui/button';
 import { Download } from 'lucide-react';
 
-const HackerBtn = ({ label }: { label: string }) => {
+type HackerBtnProps = {
+  label: string;
+  href?: string;
+  download?: boolean | string;
+};
+
+const HackerBtn = ({ label, href, download }: HackerBtnProps) => {
   const [displayText, setDisplayText] = useState(label);
   const charset = "abcdefghijklmnopqrstuvwxyz";
 
@@ -32,10 +38,33 @@ const HackerBtn = ({ label }: { label: string }) => {
     setDisplayText(label);
   }, [label]);
 
+  const content = (
+    <>
+      <Download className="mx-1" />
+      {displayText}
+    </>
+  );
+
+  if (href) {
+    return (
+      <a
+        href={href}
+        download={download}
+        className={buttonVariants({ size: 'lg', className: 'text-base px-5 py-6' })}
+        onMouseEnter={startScrambling}
+      >
+        {content}
+      </a>
+    );
+  }
+
   return (
-    <Button size={'lg'} className='text-base px-5 py-6'       onMouseEnter={startScrambling}
-    >   <Download className="mx-1" />
-        {displayText}
+    <Button
+      size={'lg'}
+      className='text-base px-5 py-6'
+      onMouseEnter={startScrambling}
+    >
+      {content}
     </Button>
   );
 };
